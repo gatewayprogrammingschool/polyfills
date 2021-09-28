@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <LangVersion>10.0</LangVersion>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <PackageId>Netstandard20.Range.Bridge</PackageId>
+        <Authors>Netstandard20.Range.Bridge</Authors>
+        <Company>Gateway Programming School, Inc.</Company>
+        <Product>Netstandard20.Range.Bridge</Product>
+        <Description>Bridges .Net Framework and Netstandard 2.0 with Netstandard 2.1 by providing implementations of the Range and Index classes.</Description>
+        <Copyright>No Copyright</Copyright>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>range index</PackageTags>
+        <PackageLicenseExpression>MIT-0</PackageLicenseExpression>
+        <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DebugType>embedded</DebugType>
+        <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="README.md" Pack="true" PackagePath="" />
+    </ItemGroup>
+    
+    
+
+</Project>
